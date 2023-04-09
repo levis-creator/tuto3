@@ -24,7 +24,6 @@ export default function App() {
     setSavedGoals((currenGoals)=>{
       return currenGoals.filter((goal)=>goal.key!=id)
     })
-    console.log('delete', id)
   }
   const handleAddGoal =() => {
     setModalVisible(true)
